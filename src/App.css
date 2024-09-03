@@ -1,0 +1,42 @@
+
+.olx-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 100%; 
+  max-width: 300px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  transition: transform 0.2s;
+}
+
+.olx-card:hover {
+  transform: scale(1.05);
+}
+
+.olx-card-image {
+  width: 100%;
+  height: auto;
+}
+
+.olx-card-details {
+  padding: 15px;
+}
+
+.olx-card-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.olx-card-price {
+  font-size: 16px;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.olx-card-location {
+  font-size: 14px;
+  color: #777;
+}
+
